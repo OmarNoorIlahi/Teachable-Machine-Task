@@ -42,7 +42,7 @@ In Python, the model code is loaded and tested. The script accepts an input imag
 
 Four testing images, each depicting a different football player from four different countries, are used as inputs. The program displays each player’s image along with the confidence score of the prediction.
 
-> (Test Results.png)
+> ![Test Results](Test%20Results.png)
 >
 > *Figure 2: Test Results*
 
