@@ -24,7 +24,7 @@ Two tools are used in order to perform the task: Teachable Machine and Python. E
 
 Teachable Machine was used to build an image recognition model. The model consists of four classes: France, England, Germany, Spain, representing the nationalities of the players. Each category includes 10 pictures of different football players to improve the model’s accuracy. Then, the model was generated into TensorFlow Keras Format.
 
-> ![Teachable Machine Model]("C:\Users\omar1\OneDrive\سطح المكتب\Smart Methods\AI Track\AI Model  - Teachable Machine\Useful Pictures\Teachable Machine Model.png")
+> 
 >
 > *Figure 1: Teachable Machine Model*
 
@@ -42,7 +42,7 @@ In Python, the model code is loaded and tested. The script accepts an input imag
 
 Four testing images, each depicting a different football player from four different countries, are used as inputs. The program displays each player’s image along with the confidence score of the prediction.
 
-> ![Test Results](images/test_results.png)
+> (Test Results.png)
 >
 > *Figure 2: Test Results*
 
