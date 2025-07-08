@@ -43,7 +43,6 @@ In Python, the model code is loaded and tested. The script accepts an input imag
 Four testing images, each depicting a different football player from four different countries, are used as inputs. The program displays each player’s image along with the confidence score of the prediction.
 
 > ![Test Results](Test%20Results.png)
->
 > *Figure 2: Test Results*
 
 As shown in Figure 2, the model figured out the nationality of each player from different countries. In fact, the predictions are true despite the variations in the confidence scores. However, the input images contain the logos of the national teams, which may have aided the model in classification. Therefore, it is recommended to use face images without any nationality hints for future work.
