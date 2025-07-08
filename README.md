@@ -26,7 +26,6 @@ Teachable Machine was used to build an image recognition model. The model consis
 
 >> ![Teachable Machine Model](Teachable%20Machine%20Model.png)
 <p align="center"><em>Figure 1: Teachable Machine Model</em></p>
-> *Figure 1: Teachable Machine Model*
 
 > **Note:** The Keras code is attached as a separate file in the repository.
 
@@ -43,7 +42,7 @@ In Python, the model code is loaded and tested. The script accepts an input imag
 Four testing images, each depicting a different football player from four different countries, are used as inputs. The program displays each player’s image along with the confidence score of the prediction.
 
 > ![Test Results](Test%20Results.png)
-> *Figure 2: Test Results*
+<p align="center"><em>Figure 2: Test Results</em></p>
 
 As shown in Figure 2, the model figured out the nationality of each player from different countries. In fact, the predictions are true despite the variations in the confidence scores. However, the input images contain the logos of the national teams, which may have aided the model in classification. Therefore, it is recommended to use face images without any nationality hints for future work.
 
